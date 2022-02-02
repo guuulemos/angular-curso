@@ -1,0 +1,30 @@
+<h2>Interpolations</h2>
+
+<p>{{ nome }} tem {{ idade }} anos!</p>
+
+<p>{{ nome }} tem mais de 20 anos?</p>
+<p>{{ idade > 20 }} </p>
+
+<p>Quanto é {{ idade }} + 1? </p>
+<p>{{ idade + 1 }}</p>
+
+<hr>
+
+<h2>Property Biding</h2>
+<button [disabled]="checkedDisable">Button</button>
+
+<hr>
+
+<h2>Event Biding</h2>
+<button (click)="alertaInfo($event)">Evento</button>
+
+<div (mousemove)="mouseMoveTeste($event)" style="background: red; width: 300px; height: 300px;"></div>
+
+{{ position.x }} - {{ position.y }}
+
+<hr>
+
+<h2>Two-way Biding</h2>
+<input [(ngModel)]="nome">
+{{ nome }}
+
