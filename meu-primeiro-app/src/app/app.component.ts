@@ -3,7 +3,7 @@ import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit,
 @Component({
   selector: 'app-root',
   template: `
-    <app-data-biding></app-data-biding>
+    <app-diretivas-atributos></app-diretivas-atributos>
     <router-outlet></router-outlet>`
 })
 export class AppComponent implements OnInit {
